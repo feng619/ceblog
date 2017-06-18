@@ -1,0 +1,95 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+$blue100: #EDF4FE;
+$blue200: #C1E3FF;
+$blue300: #71BDF1;
+$blue400: #153F65;
+$orange300: #DE8C67;
+@mixin breakpoint($class) {
+    @if $class==xs {
+        @media (max-width: 767px) {
+            @content;
+        }
+    }
+    @else if $class==sm {
+        @media (min-width: 768px) {
+            @content;
+        }
+    }
+    @else if $class==md {
+        @media (min-width: 992px) {
+            @content;
+        }
+    }
+    @else if $class==lg {
+        @media (min-width: 1200px) {
+            @content;
+        }
+    }
+    @else {
+        @warn "Breakpoint mixin supports: xs, sm, md, lg";
+    }
+}
+
+.theme {
+    width: 600px;
+    margin: auto;
+    color: $blue400;
+    @include breakpoint(xs) {
+        width: 90%;
+    }
+    @include breakpoint(sm) {
+        width: 500px;
+    }
+    @include breakpoint(md) {
+        width: 600px;
+    }
+    @include breakpoint(lg) {
+        width: 800px;
+    }
+    h1 {
+        margin: 50px 0 30px;
+        font-size: 30px;
+    }
+    h2 {
+        margin: 50px 0 30px;
+        font-size: 26px;
+    }
+    p {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    ul {
+        li {
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+    }
+    ol {
+        li {
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+    }
+    hr {
+        margin: 60px 0;
+    }
+    pre {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    img {
+        width: 600px;
+        @include breakpoint(xs) {
+            width: 90%;
+        }
+        @include breakpoint(sm) {
+            width: 500px;
+        }
+        @include breakpoint(md) {
+            width: 600px;
+        }
+        @include breakpoint(lg) {
+            width: 800px;
+        }
+    }
+}

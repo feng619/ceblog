@@ -1,0 +1,78 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+$blue100: #EDF4FE;
+$blue200: #C1E3FF;
+$blue300: #71BDF1;
+$blue400: #153F65;
+$orange300: #DE8C67;
+#blog {
+    #btn-container {
+        display: flex;
+        justify-content: center;
+        .page-btn {
+            width: 64px;
+            height: 64px;
+            text-align: center;
+            line-height: 64px;
+            font-size: 24px;
+            font-family: 'Ultra', serif;
+            color: $blue400;
+            cursor: pointer;
+            transition: color .4s;
+            &:hover {
+                color: $orange300;
+            }
+        }
+    }
+    #list-container {
+        .post-container {
+            color: $blue400;
+            .line {
+                width: 450px + 72px;
+                height: 0;
+                margin: auto;
+                border-top: 1px solid $blue400;
+            }
+            .post {
+                display: flex;
+                justify-content: center;
+                position: relative;
+                padding: 10px 0 60px;
+                background-color: #fff;
+                cursor: pointer;
+                &:hover {
+                    .post-left {
+                        color: $orange300;
+                    }
+                }
+                .post-left {
+                    font-family: 'Ultra', serif;
+                    font-size: 40px;
+                    letter-spacing: 2px;
+                    padding: 0 20px 0 0;
+                    transition: color .4s;
+                }
+                .post-right {
+                    width: 450px;
+                    .title {
+                        font-size: 28px;
+                        letter-spacing: 2px;
+                        font-family: 'Noto Sans TC', sans-serif;
+                        line-height: 60px;
+                    }
+                    .post-date {
+                        font-size: 16px;
+                        letter-spacing: 1px;
+                        font-family: 'Dosis', sans-serif;
+                        padding: 0 0 20px;
+                    }
+                    .discription {
+                        font-size: 18px;
+                        letter-spacing: 1px;
+                        font-family: 'Noto Sans TC', sans-serif;
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+    }
+}

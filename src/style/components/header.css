@@ -1,0 +1,61 @@
+#header {
+  width: vw; }
+  #header header {
+    text-align: center; }
+    #header header h1 {
+      margin: 0;
+      padding: 60px 0 0;
+      font-size: 50px;
+      letter-spacing: 2px;
+      font-family: 'Chango', cursive;
+      color: #153F65;
+      cursor: default; }
+      #header header h1.three {
+        padding: 0 0 50px;
+        font-size: 50px;
+        letter-spacing: 2px;
+        font-family: 'Mrs Sheppards', cursive; }
+    #header header h2 {
+      margin: 0;
+      padding: 5px 0;
+      font-size: 28px;
+      letter-spacing: 2px;
+      font-family: 'Dosis', sans-serif;
+      color: #153F65;
+      cursor: default; }
+    #header header .line {
+      margin: auto;
+      height: 0px;
+      border-top: 1px solid #153F65; }
+      #header header .line.a {
+        width: 210px; }
+      #header header .line.b {
+        width: 130px; }
+  #header nav {
+    padding: 0;
+    background-color: #153F65; }
+    #header nav ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      border-top: 1px solid #153F65;
+      border-bottom: 1px solid #153F65; }
+      #header nav ul li {
+        text-align: center; }
+        #header nav ul li a {
+          width: 126px;
+          display: block;
+          padding: 20px 20px;
+          font-family: 'Dosis', sans-serif;
+          font-size: 16px;
+          letter-spacing: 1px;
+          color: #EDF4FE;
+          text-decoration: none;
+          transition: color .4s; }
+          #header nav ul li a:hover {
+            color: #DE8C67;
+            text-decoration: none;
+            cursor: pointer; }

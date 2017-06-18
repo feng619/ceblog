@@ -1,0 +1,51 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+.theme {
+  width: 600px;
+  margin: auto;
+  color: #153F65; }
+  @media (max-width: 767px) {
+    .theme {
+      width: 90%; } }
+  @media (min-width: 768px) {
+    .theme {
+      width: 500px; } }
+  @media (min-width: 992px) {
+    .theme {
+      width: 600px; } }
+  @media (min-width: 1200px) {
+    .theme {
+      width: 800px; } }
+  .theme h1 {
+    margin: 50px 0 30px;
+    font-size: 30px; }
+  .theme h2 {
+    margin: 50px 0 30px;
+    font-size: 26px; }
+  .theme p {
+    font-size: 18px;
+    letter-spacing: 1px; }
+  .theme ul li {
+    font-size: 18px;
+    letter-spacing: 1px; }
+  .theme ol li {
+    font-size: 18px;
+    letter-spacing: 1px; }
+  .theme hr {
+    margin: 60px 0; }
+  .theme pre {
+    font-size: 16px;
+    letter-spacing: 1px; }
+  .theme img {
+    width: 600px; }
+    @media (max-width: 767px) {
+      .theme img {
+        width: 90%; } }
+    @media (min-width: 768px) {
+      .theme img {
+        width: 500px; } }
+    @media (min-width: 992px) {
+      .theme img {
+        width: 600px; } }
+    @media (min-width: 1200px) {
+      .theme img {
+        width: 800px; } }
