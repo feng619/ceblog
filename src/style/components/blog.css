@@ -1,0 +1,56 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+#blog #btn-container {
+  display: flex;
+  justify-content: center; }
+  #blog #btn-container .page-btn {
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    line-height: 64px;
+    font-size: 24px;
+    font-family: 'Ultra', serif;
+    color: #153F65;
+    cursor: pointer;
+    transition: color .4s; }
+    #blog #btn-container .page-btn:hover {
+      color: #DE8C67; }
+
+#blog #list-container .post-container {
+  color: #153F65; }
+  #blog #list-container .post-container .line {
+    width: 522px;
+    height: 0;
+    margin: auto;
+    border-top: 1px solid #153F65; }
+  #blog #list-container .post-container .post {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 10px 0 60px;
+    background-color: #fff;
+    cursor: pointer; }
+    #blog #list-container .post-container .post:hover .post-left {
+      color: #DE8C67; }
+    #blog #list-container .post-container .post .post-left {
+      font-family: 'Ultra', serif;
+      font-size: 40px;
+      letter-spacing: 2px;
+      padding: 0 20px 0 0;
+      transition: color .4s; }
+    #blog #list-container .post-container .post .post-right {
+      width: 450px; }
+      #blog #list-container .post-container .post .post-right .title {
+        font-size: 28px;
+        letter-spacing: 2px;
+        font-family: 'Noto Sans TC', sans-serif;
+        line-height: 60px; }
+      #blog #list-container .post-container .post .post-right .post-date {
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-family: 'Dosis', sans-serif;
+        padding: 0 0 20px; }
+      #blog #list-container .post-container .post .post-right .discription {
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-family: 'Noto Sans TC', sans-serif;
+        text-align: justify; }
