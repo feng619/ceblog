@@ -9,28 +9,27 @@
     line-height: 64px;
     font-size: 24px;
     font-family: 'Ultra', serif;
-    color: #153F65;
+    color: #17507D;
     cursor: pointer;
     transition: color .4s; }
     #blog #btn-container .page-btn:hover {
-      color: #DE8C67; }
+      color: #C77A3A; }
 
 #blog #list-container .post-container {
-  color: #153F65; }
+  color: #17507D; }
   #blog #list-container .post-container .line {
     width: 522px;
     height: 0;
     margin: auto;
-    border-top: 1px solid #153F65; }
+    border-top: 1px solid #17507D; }
   #blog #list-container .post-container .post {
     display: flex;
     justify-content: center;
     position: relative;
     padding: 10px 0 60px;
-    background-color: #fff;
     cursor: pointer; }
     #blog #list-container .post-container .post:hover .post-left {
-      color: #DE8C67; }
+      color: #C77A3A; }
     #blog #list-container .post-container .post .post-left {
       font-family: 'Ultra', serif;
       font-size: 40px;

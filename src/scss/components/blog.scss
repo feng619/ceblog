@@ -1,9 +1,4 @@
-@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
-$blue100: #EDF4FE;
-$blue200: #C1E3FF;
-$blue300: #71BDF1;
-$blue400: #153F65;
-$orange300: #DE8C67;
+@import "../variables";
 #blog {
     #btn-container {
         display: flex;
@@ -19,7 +14,7 @@ $orange300: #DE8C67;
             cursor: pointer;
             transition: color .4s;
             &:hover {
-                color: $orange300;
+                color: $yellow300;
             }
         }
     }
@@ -37,11 +32,10 @@ $orange300: #DE8C67;
                 justify-content: center;
                 position: relative;
                 padding: 10px 0 60px;
-                background-color: #fff;
                 cursor: pointer;
                 &:hover {
                     .post-left {
-                        color: $orange300;
+                        color: $yellow300;
                     }
                 }
                 .post-left {

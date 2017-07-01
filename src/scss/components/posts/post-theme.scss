@@ -1,9 +1,4 @@
-@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
-$blue100: #EDF4FE;
-$blue200: #C1E3FF;
-$blue300: #71BDF1;
-$blue400: #153F65;
-$orange300: #DE8C67;
+@import "../../variables";
 @mixin breakpoint($class) {
     @if $class==xs {
         @media (max-width: 767px) {

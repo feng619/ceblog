@@ -1,3 +1,4 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 #header {
   width: vw; }
   #header header {
@@ -8,7 +9,7 @@
       font-size: 50px;
       letter-spacing: 2px;
       font-family: 'Chango', cursive;
-      color: #153F65;
+      color: #17507D;
       cursor: default; }
       #header header h1.three {
         padding: 0 0 50px;
@@ -21,19 +22,20 @@
       font-size: 28px;
       letter-spacing: 2px;
       font-family: 'Dosis', sans-serif;
-      color: #153F65;
+      color: #17507D;
       cursor: default; }
     #header header .line {
       margin: auto;
       height: 0px;
-      border-top: 1px solid #153F65; }
+      border-top: 1px solid #17507D; }
       #header header .line.a {
         width: 210px; }
       #header header .line.b {
         width: 130px; }
   #header nav {
     padding: 0;
-    background-color: #153F65; }
+    background-image: url(../../images/texture.png);
+    background-color: #17507D; }
     #header nav ul {
       display: flex;
       justify-content: center;
@@ -41,8 +43,8 @@
       padding: 0;
       margin: 0;
       list-style: none;
-      border-top: 1px solid #153F65;
-      border-bottom: 1px solid #153F65; }
+      border-top: 1px solid #17507D;
+      border-bottom: 1px solid #17507D; }
       #header nav ul li {
         text-align: center; }
         #header nav ul li a {
@@ -52,10 +54,10 @@
           font-family: 'Dosis', sans-serif;
           font-size: 16px;
           letter-spacing: 1px;
-          color: #EDF4FE;
+          color: #93A2A9;
           text-decoration: none;
           transition: color .4s; }
           #header nav ul li a:hover {
-            color: #DE8C67;
+            color: #C77A3A;
             text-decoration: none;
             cursor: pointer; }

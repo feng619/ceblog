@@ -1,8 +1,4 @@
-$blue100: #EDF4FE;
-$blue200: #C1E3FF;
-$blue300: #71BDF1;
-$blue400: #153F65;
-$orange300: #DE8C67;
+@import "../variables";
 #header {
     width: vw;
     header {
@@ -45,6 +41,7 @@ $orange300: #DE8C67;
     }
     nav {
         padding: 0;
+        background-image: url(../../images/texture.png);
         background-color: $blue400;
         ul {
             display: flex;
@@ -64,11 +61,11 @@ $orange300: #DE8C67;
                     font-family: 'Dosis', sans-serif;
                     font-size: 16px;
                     letter-spacing: 1px;
-                    color: $blue100;
+                    color: $grey100;
                     text-decoration: none;
                     transition: color .4s;
                     &:hover {
-                        color: $orange300;
+                        color: $yellow300;
                         text-decoration: none;
                         cursor: pointer;
                     }
