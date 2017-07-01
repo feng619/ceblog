@@ -9,7 +9,7 @@ import '../style/components/blog.css';
 
 class Blog extends Component {
   paginateButton() {
-    const numPerPage = 2,
+    const numPerPage = 3,
       postsNum = POSTS_LIST.length,
       pageNum = Math.ceil(postsNum / numPerPage);
 
@@ -25,7 +25,7 @@ class Blog extends Component {
   }
 
   renderPostsList() {
-    const numPerPage = 2,
+    const numPerPage = 3,
       pageIdx = this.props.match.params.pageid,
       PartialPosts = POSTS_LIST.slice(
         (pageIdx - 1) * numPerPage,

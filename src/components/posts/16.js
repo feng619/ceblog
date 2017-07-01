@@ -1,5 +1,5 @@
 const p16 = `
-# #16 **ESLint, Prettier, and Flow**
+# #16 ESLint, Prettier, and Flow
 
 ----------
 
